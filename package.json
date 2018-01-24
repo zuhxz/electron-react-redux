@@ -1,6 +1,6 @@
 {
   "name": "electron-react-redux",
-  "version": "0.0.15",
+  "version": "0.0.18",
   "description": "electron-react-redux",
   "main": "init.js",
   "author": {
