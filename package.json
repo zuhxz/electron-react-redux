@@ -1,6 +1,6 @@
 {
   "name": "electron-react-redux",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "electron-react-redux",
   "main": "init.js",
   "author": {
@@ -62,14 +62,5 @@
     "private:compile": "babel app/ --copy-files --out-dir build",
     "private:clean": "rimraf build",
     "buildLinux": "electron-builder --publish always"
-  },
-  "build": {
-    "publish": [
-      {
-        "provider": "github",
-        "owner": "zuhxz",
-        "repo": "electron-react-redux"
-      }
-    ]
   }
 }
