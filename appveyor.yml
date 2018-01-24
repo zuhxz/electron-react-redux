@@ -3,7 +3,7 @@ environment:
  - nodejs_version: "8"
 
 install:
-- ps: Install-Product node 8
+- ps: Install-Product node $env:nodejs_version
 - npm install
 build_script:
 - npm test
