@@ -61,14 +61,15 @@
     "private:serve": "babel-node scripts/serve.js",
     "private:compile": "babel app/ --copy-files --out-dir build",
     "private:clean": "rimraf build",
-	"buildLinux" : "electron-builder --publish always"
+    "buildLinux": "electron-builder --publish always"
   },
-       "build": {
-         "publish": [{
-             "provider": "github",
-             "owner": "zuhxz",
-             "repo": "electron-react-redux"
-         }]
-      
-     }
+  "build": {
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "zuhxz",
+        "repo": "electron-react-redux"
+      }
+    ]
+  }
 }
