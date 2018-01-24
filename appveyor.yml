@@ -1,8 +1,8 @@
 environment:
-	nodejs_version: "8"
+nodejs_version: "8"
 install:
-	- npm install
+- npm install
 build_script:
-	- npm test
-	- npm run pack:win
-skip_non_tags: true
+- npm test
+- npm run pack:win
+#skip_non_tags: true
