@@ -14,6 +14,6 @@ install:
 script:
 # - npm run lint
  - npm test
- - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; npm run pack:linux; fi
- - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; npm run pack:osx; fi
+ - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then npm run pack:linux; fi
+ - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then npm run pack:osx; fi
 # - npm run build
