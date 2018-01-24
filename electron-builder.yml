@@ -1,6 +1,6 @@
 appId: com.example.app
 copyright: Example co
-productName: MyApp
+productName: electron-react-redux
 
 asar: true
 
