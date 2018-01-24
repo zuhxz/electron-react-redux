@@ -26,7 +26,7 @@ export default class Login extends Component {
   render() {
     return (
       <div>
-        <h2>Login yo12345:</h2>
+        <h2>Login yo12345wat:</h2>
         <input onChange={this.handleChange} type="text" value={this.state.username} />
         <button onClick={this.handleLogin}>Log In</button>
       </div>
