@@ -1,6 +1,6 @@
 {
   "name": "electron-react-redux",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "electron-react-redux",
   "main": "init.js",
   "author": {
@@ -11,6 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "babel-runtime": "^6.22.0",
+    "electron-log": "^2.2.14",
+    "electron-updater": "^2.20.1",
     "history": "^4.6.3",
     "prop-types": "^15.5.10",
     "react": "^16.2.0",
