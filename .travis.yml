@@ -13,6 +13,7 @@ install:
 - npm install
 script:
 # - npm run lint
-- npm test
-- npm run pack:linux
+ - npm test
+ - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; npm run pack:linux; fi
+ - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; npm run pack:osx; fi
 # - npm run build
